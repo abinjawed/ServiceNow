@@ -1,0 +1,32 @@
+
+
+----SERVICENOW ADMIN CONSOLE-----
+Search "Application" in Navigator.
+
+Select "Applications" in Navigator.
+
+Select the desired Application (ie, NeedIt) in the Content Frame.
+
+Switch to the appropriate scope.
+
+Under "Related Links," select "Publish to Update Set."
+
+Input the desired name in the "description" box.
+
+Under "Related Links," select "Export to XML."
+
+
+------INCOGNITO WINDOW------
+Search "Update Set" in the Application Navigator.
+
+Select "Retrieved Update Sets."
+
+Under "Related Links," select "Import from XML.
+
+Select the file.
+
+Preview the Update Set.
+
+Commit.
+
+Open Studio and see that NeedIt is now available in Studio!
