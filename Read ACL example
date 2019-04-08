@@ -1,0 +1,46 @@
+----ADMIN CONSOLE------
+Step One: Log in to one instance as the Global User in the User Admin Console of ServiceNow. Give Elevated Role.
+
+
+----INCOGNITO INSTANCE----
+Step Two: Log in to one instance INCOGNITO in a new tab or window.
+
+
+----ADMIN CONSOLE----
+Step Three: Create a Group in the Step One instance of ServiceNow. Save.
+
+Step Four: Create a User in the Group from Step Three. Save.
+
+Step Five: Create a Role. Save.
+
+----STUDIO-----
+Step Six: Open the Studio and open the NeedIt application.
+
+Step Seven: Click on either "create," "read," "write," or "delete" options under the "Access Controls" directory.
+
+
+----ADMIN CONSOLE-----
+Step Eight: Copy the value in the "Name" field (ie,  x_58872_needit_needit) and paste it to the Role's roles. Save.
+
+Step Nine: Go to the User. Scroll down to the "Roles" tab and add the new Role. Save.
+
+Step Ten: Go to the Group. Scroll down to the "Roles" tab and add the new Role. Save.
+
+Step Ten: Within the same Group, go to the Group Members and add the new User. Save.
+
+Step Eleven: Search "ACL" in the Navigation Toolbar and select "Access Control (ACL)" under "System Security."
+
+Step Twelve: Fill out the form accordingly... don't forget to input "x_58872_needit_needit" for the "Name" field.
+Check Admin overrides and Active.
+
+
+----INCOGNITO INSTANCE-----
+Step Thirteen: Impersonate the User.
+
+Step Fourteen: Try to access the list of incidents.
+
+----ADMIN CONSOLE----
+Step Fifteen: Uncheck the active box.
+
+----INCOGNITO INSTANCE----
+Step Sixteen: Try to access the list of incidents. Observe how the list is not accessible after unchecking active from Step Fifteen.
