@@ -1,0 +1,24 @@
+API
+--------------------------------------------------------------------------
+
+In computer programming, an application programming interface (API) is a set of subroutine 
+definitions, communication protocols, and tools for building software. In general terms, it is a set 
+of clearly defined methods of communication among various components.
+ 
+A good API makes it easier to develop a computer program by providing all the building blocks, 
+which are then put together by the programmer.
+
+An API may be for a web-based system, operating system, database system, computer hardware, 
+or software library.
+
+An API specification can take many forms, but often includes specifications for routines, 
+data structures, object classes, variables, or remote calls.
+Documentation for the API usually is provided to facilitate usage and 
+implementation.
+
+An API usually is related to a software library. The API describes and prescribes the 
+"expected behavior" (a specification) while the library is an "actual implementation" of 
+this set of rules.
+
+A single API can have multiple implementations (or none, being abstract) in the form of 
+different libraries that share the same programming interface.

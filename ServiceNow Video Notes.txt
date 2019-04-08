@@ -1,0 +1,24 @@
+SERVICENOW
+
+- ServiceNow is a software platform.
+- ServiceNow supports IT service management.
+- ServiceNow automates common business processes.
+- ServiceNow contains modular applications that can vary by instance and user.
+
+- ServiceNow provides an army of applications for:
+	- Data storage
+	- Security
+	- Analytics
+	- Monitoring workflows
+	- Modelling workflows
+
+- ServiceNow is a single system of records.
+
+- ServiceNow provides simple User Interface.
+
+- ServiceNow simplifies the complex business needs by providing functionality.
+
+- 
+
+-At ServiceNow, we offer "Cloud" as a service.
+-Essentially, we act as a "3rd party" for big companies.

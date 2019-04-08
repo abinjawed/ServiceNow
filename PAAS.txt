@@ -1,0 +1,60 @@
+
+PaaS
+---------------------------
+
+-We offer PaaS (Platform as a Service).
+	- PaaS is a category of cloud computing services.
+	- PaaS provides platform to allow customers/clients to develop 
+	and manage an app, minus the hassle of having to build and 
+	maintain the complex infrastructure of buidling and maintaining
+	an appl.
+	- PaaS can be delivered in 2 ways:
+		- As a public cloud service, wherein the consumer controls
+		software deployment and configuration settings... this is
+		where provider steps in and provides network servers and 
+		storage to host the consumer's application.
+		- As a software installed in private data centers... here
+		it is managed by an internal IT department. The provider
+		will simplify the code-writing process for developers
+		by providing them infrastructure and handle operations.
+
+- Originally, all platforms were in the public cloud.. but then companies 
+did not want to have their information accessible by the public. Thus,
+the private and hybrid options were created.
+
+- PaaS provides companies and developers the environment to create, host,
+and deploy applications.
+
+- PaaS tackles the complexities of setting up, configuring, and managing 
+elements (such as servers and databases).
+
+- PaaS speeds up the process of developing an app.
+
+- PaaS allows the consumer to focus on the app itself.
+
+- PaaS allows the consumer to manage the app... while the provider manages:
+	- runtime
+	- middleware
+	- operating system
+	- virtualization
+	- servers
+	- storage
+	- networking
+
+- The vendor can provide development tools.
+- The vendor can customize development tools according to user needs.
+
+- The user can choose to maintain the software or have the vendor maintain it.
+
+- PaaS can provide facilities for:
+	- application design
+	- application development
+	- testing
+	- deployment
+	- team collaboration
+	- web service integration
+	- marshalling database integration
+	- security
+	- scalability
+	- application version upgrade
+	- developer community facilitation

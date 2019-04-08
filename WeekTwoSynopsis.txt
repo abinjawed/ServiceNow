@@ -1,0 +1,11 @@
+SERVICENOW TRAINING
+---------------------------------------------
+Day One: - How to build an Application via Studio.
+
+Day Two: - How to create Groups with Roles and Users.
+         - How to import files from GitHub.
+	 - Client scripts.
+	 - UI Policy.
+
+Day Three: - Difference between Client Script and UI Policy.
+	   - Creating a UI Policy.
