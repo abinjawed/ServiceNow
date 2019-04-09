@@ -1,0 +1,22 @@
+
+----ADMIN CONSOLE----
+(Step One) Within the "Travel Reimbursement" scope, search the application and select the Module of Submissions for Tasks/Incidents.
+
+(Step Two) Right-click in the column header and select Configure>Workflows.
+
+(Step Three) Click "New."
+
+(Step Four) Input the values for "Name" and "Description."
+
+(Step Five) Click "Submit."
+
+-----WORKFLOW EDITOR-----
+(Step Six) Go back to the Workflow Editor and add the following items from the Core Panel (See Workflow Example.JPG):
+  -Approval User
+  -Create Task
+  -Set Values (Approved)
+  -Set Values (Rejected)
+ 
+ (Step Seven) Go to the Workflow Actions tab and select "Validate Workflow."
+ 
+ (Step Eight) Publish it.
