@@ -2,8 +2,11 @@
 (Step One) File > Create Application
 (Step Two) Start From Scratch
 (Step Three) Name the Application
+
 (Step Four) Create Application File > Module > Create > Name the Module
 (Step Five) Within the Module, select Link Type > Go to Link Type Tab > Select Link Type as New Record > Update. This is the FORM.
+
 (Step Six) Create Application File > Module > Create > Name the Module 
 (Step Seven) Within the Module, select Link Type > Go to Link Type Tab > Select Link Type as List of Records > Update. This has RECORDS.
-(Step Eight) Go to the Form and fill out accordingly.
+
+(Step Eight) Now you may go to Forms & UI > Forms, and select the desired fields.
