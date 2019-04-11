@@ -1,22 +1,24 @@
 
 ----ADMIN CONSOLE----
-(Step One) Within the "Travel Reimbursement" scope, search the application and select the Module of Submissions for Tasks/Incidents.
+(Step One) Within the "Travel Reimbursement" scope, (as the Courier Lead for Travel Reimbursement) submit a request.
 
-(Step Two) Right-click in the column header and select Configure>Workflows.
+(Step Two) Impersonate System Admin and search in the Navigator: Live Workflows > All Context.
 
-(Step Three) Click "New."
+(Step Three) Select the desired Task submitted by the Courier Lead.
 
-(Step Four) Input the values for "Name" and "Description."
+(Step Four) Click on "Show Workflow."
 
-(Step Five) Click "Submit."
+(Step ) 
+
+(Step ) 
 
 -----WORKFLOW EDITOR-----
-(Step Six) Go back to the Workflow Editor and add the following items from the Core Panel (See Workflow Example.JPG):
+(Step ) Go back to the Workflow Editor and add the following items from the Core Panel (See Workflow Example.JPG):
   -Approval User
   -Create Task
   -Set Values (Approved)
   -Set Values (Rejected)
  
- (Step Seven) Go to the Workflow Actions tab and select "Validate Workflow."
+(Step ) Go to the Workflow Actions tab and select "Validate Workflow."
  
- (Step Eight) Publish it.
+(Step ) Publish it.
