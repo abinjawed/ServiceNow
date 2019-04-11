@@ -1,0 +1,18 @@
+
+Step One: Search "Service Catalog" > "Create New"
+
+Step Two: Under Report Name, fill out a new name.
+
+Step Three: Source Type: Table
+
+Step Four: Table: Task
+
+Step Five: Conditions > Active ------------ is ------------ True
+                        Assignment Group -- is ------------ Managers
+                        Created ----------- at or before -- This Week
+
+Step Six: Type > Bar (or whichever you prefer)
+
+Step Seven: Configure > Group By > Assignment Group
+
+Step Eight: Style ... (configure as desired)
