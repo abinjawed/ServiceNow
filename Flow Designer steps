@@ -36,7 +36,7 @@ Step Fifteen: Activate.
 
 Essentially, it's like the following:
 
-TRIGGER (NOW) [ Knowledge ] Created where [ Knowledge base is not empty ]
+TRIGGER(NOW) [ Knowledge ] Created where [ Knowledge base is not empty ]
 
 ACTION
 1(NOW) Create [Approval] Record
