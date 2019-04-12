@@ -33,3 +33,14 @@ Step Fifteen: Activate.
 
 
 *** NOTE: Be sure to see "Flow Designer example.JPEG" as an example of ACTION fields under the top TRIGGER field ****
+
+Essentially, it's like the following:
+
+TRIGGER (NOW) [ Knowledge ] Created where [ Knowledge base is not empty ]
+
+ACTION
+1(NOW) Create [Approval] Record
+2(NOW) Update [Knowledge] Record
+3(NOW) Send Email
+4(NOW) Wait For Condition where (State is Approved)
+5(NOW) Update [Knowledge] Record
