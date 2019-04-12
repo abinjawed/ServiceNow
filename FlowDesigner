@@ -1,0 +1,32 @@
+
+---- ADMIN CONSOLE ----
+
+Step One: Sign in as System Admin under Global
+
+Step Two: search "Flowdesigner" > "Designer"
+
+Step Three: Click on "New+"
+
+Step Four: Select "New Flow"
+
+Step Five: Fill out the form as desired.
+
+Step Six: Under TRIGGER, click on the Plus (+) sign in the circle.
+
+Step Seven: Select the desired type of trigger, such as "Created."
+
+Step Eight: Select the desired Table.
+
+Step Nine: Set the condition filter as desired.
+
+Step Ten: Select "Action."
+
+Step Eleven: Select "Create Action."
+
+Step Twelve: Set the Table name as "Approval[sysapproval_approver]" and set rest of the fields as desired.
+
+Step Thirteen: If needed, add Update Record or other Actions.
+
+Step Fourteen: Save
+
+Step Fifteen: Activate.
