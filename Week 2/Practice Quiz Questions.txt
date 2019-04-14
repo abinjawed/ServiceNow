@@ -1,0 +1,213 @@
+1 The main UI is divided into what three sections?
+Banner frame, application navigator and content frame
+
+2 What does the banner frame contain?
+Logo and global navigation control
+
+
+3 What does the application navigator contain?
+Provides links to all application menus and modules
+
+4 Does ESS have a role?
+NO
+
+5 What does the content frame contain?
+Displays info like lists, forms, home pages and wizards
+
+5 What's the name of the application navigator search box?
+Type filter text
+
+
+6 What's a module and application in the example  Incident > create new?
+Incident is an application and create new is the module
+
+7 What is the edge?
+It's new gray toolbar on the left hand side of the screen
+
+8 What are the 5 ways you can search in ServiceNow?
+Lists, global text search, knowledge base, navigation filter, live feed
+
+8 Workflow versions captured in wf_workflow_version
+TRUE
+
+9 Where is the list search option?
+Above lists view; let's you narrow down search
+
+10 Where is the global text search?
+In the banner
+
+10
+What does the Out-Of-Box 'Insert and Stay' Context menu represents?
+It inserts a new record and stays on the new form
+It inserts a new record and copies all the field values
+
+
+11 T or F searches are case sensitive?
+False
+
+12 What's the name of text indexing search engine?
+Zing
+
+
+12If a notification has a template attached and the subject is filled out on the notification, then on the email getting fired, what will happen?
+Subject from the notification will be used
+
+13 Where would you change the banner icon and text?
+System properties > my company's
+
+14 Where would you change banner color and other colors?
+System properties > CSS
+
+15 What two ways can something in the edge bar be opened?
+In a window flyout or in the window pane
+
+16 What does a list display?
+It displays information in a table, organized in sortable columns
+
+17 What does a form display?
+Display information from a record
+
+18 Lists can display how many tables?
+One table; however not that it can reference other tables
+
+18
+How will you define a workflow?
+Define Workflow properties, Define Workflow activities, Publish it
+
+19 What is a record?
+It is one set of table fields
+
+20 What does the list editor do?
+It allows you to update the record without having to into a form
+
+21 What is a sys_id?
+It is a unique 32 character globally unique id used to identify a record; so, when you send someone an incident link  The sysid is within the link
+
+
+22What table is used to store the SLAs definition?
+contract_sla
+
+23How will you approve a change request?
+Right click change record in approver tab and click approve
+
+24Applications and modules are loaded based on
+Role
+
+25What is difference between Save & Insert action on form?
+Save: saves the record & stays on form & Insert: creates a new record & redirects to list view
+
+26How do you modify the field behavior?
+Right click> Configure > Dictionary
+
+22 Where are bread crumbs in SN?
+It's the filter views (ie, when you run a report); the more you add the longer it gets
+
+23 What options do you have for saved filters
+You can save to yourself or a group Admins can save it to everyone
+
+23In which table role to group mapping is stored?
+sys_group_has_role
+
+
+24 Where do saved filters end up?
+Click on the arrow next to the application and right click select filters
+
+25 What does the search term !*search do
+Means does not contain
+
+25
+
+Consider a Scenario- BOB: Harry, We won a deal from CISCO Harry: Sure, CTS will provide CISCO with best deals to carry out their IT operations BOB: Now, they want that their Priority 1 network issue should be resolved within 4 hrs Harry: Our internal network team has its defined resolution time of 2 hrs BOB: Also, you have to keep in mind, CISCO has chosen Netgear as his vendor to support his network equipment and the time for resolution with Netgear is 5 hrs Harry: What ITSM tool CISCO is planning to deploy? BOB: The tool is Service Now, Please confirm whether the requirement can be achieved or not? So, in order to fulfill the above requirement what all should be done in Service Now?
+Configure 4 hrs SLA, 2 hrs OLA and 5hrs UC
+
+26 What does !=search do
+Does not equal
+
+27 What happens to the gear icon once you've made changes?
+It means you've customized the columns in your list
+
+28 What does the gear in list view allow you to do
+It's a slush bucket that allows you to add or remove columns just from your view
+
+28SLA, OLA and UC are configured in which module?
+SLM
+
+29 How does a sys admin set list layout view globally?
+Go to the list and right click; select personalize and list layout
+
+30 T or false: resetting the list layout globally will over ride personal preferences?
+False; not out of the box You can probably blow away a database record to do that
+
+31 How do you edit a form?
+Go to a form, right click and select personalize form
+
+32 What does the light red form field indicator mean?
+A requires field that has a saved value
+
+33 What does the light green form field indicator mean?
+Means the field has been modified; to retain you have to click save
+
+34Which user receives notification, meeting invites on behalf of another user
+Delegate
+
+35How do you edit/ create a workflow?
+Graphical Workflow Editor
+
+36Roles can contain other roles When user is assigned to a role, he will inherit the contained roles as well
+TRUE
+
+37 How do you know which release version of Service Now you are working on?
+Go to System Diagnostics->Stats and check the Build name
+
+38 How do you change the color of the instance?
+Using Navigation Menu under Content Management
+
+39 When user creates a table "abc", how does ServiceNow name it?
+u_abc
+
+40 Coalescing on a field (or set of fields) means the field will be used as a regular/general key
+FALSE
+
+41 A transform map is a set of field maps that determine the relationships between fields in an import set and fields in an existing ServiceNow table
+True
+
+42 How is the application Navigator (left nav) populated onload?
+It is populated based on the role of the logged in user
+
+
+43 Moving an entry from Available to Selected slush bucket removes it from the form
+FALSE
+
+
+34 What does the red form field indicator mean?
+Its a required field that requires a value
+
+35 What does the orange form field indicator mean?
+Read only data that is not editable on this form
+
+36 What does a red dashed line indicate in a form field?
+That there is invalid data or a mistyped word
+
+37 What iOS versions are supported for sn?
+iOS 6
+
+38 What version of android is supported?
+Android 40
+
+39 How do you get to the mobile and tablet version of sn?
+Go to your instance and add the following to the end $mdo  $tabletdo  eg, nameservice-nowcom/$mdo
+
+40 What functionality do you get from the mobile version of sn?
+Application navigator, labels and favorites, list and forms
+
+41 What do plugins do?
+They provide additional optional functionality
+
+42 How do you get to plugins?
+Search the navigator for plugins and activate them
+
+43 What is a user
+It's one record stored in the user [sys_user] table
+
+44 What form can a user see their user record?
+My profile
