@@ -1,0 +1,35 @@
+
+
+GLIDESYSTEM
+
+GlideSystem is a server-side API that is available to all server-side scripts 
+via the variable "gs." 
+
+The GlideSystem API allows us to get various kinds of useful information
+about the system, the user's session, the current date/time, or other 
+bits of useful info. 
+
+It also allows you to interact with the user, by displaying informational 
+or error messages.
+
+
+GlideSystem also has Methods:
+The GlideSystem methods facilitate the inclusion of dates in query ranges 
+and are most often used in filters and reporting.
+
+The Method Detail is in three sections:
+
+General functions
+Date and Time functions
+User Session functions
+
+
+**NOTE**
+The global Glide APIs are not available in scoped scripts. 
+There are scoped Glide APIs for use in scoped scripts. 
+The scoped Glide APIs provide a subset of the global Glide API methods. 
+For information on scoped applications, research:
+	- Application Scope, 
+	- Scripting in scoped applications,
+	- The list of scoped APIs.
+
