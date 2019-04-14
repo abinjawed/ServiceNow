@@ -1,0 +1,12 @@
+
+The GlideDateTime class provides methods for performing operations on GlideDateTime objects, such as:
+  - instantiating GlideDateTime objects.
+  - working with glide_date_time fields.
+
+The GlideDateTime methods are used to perform date-time operations, such as:
+  - instantiating a GlideDateTime object, 
+  - performing date-time calculations, 
+  - formatting a date-time, 
+  - converting between date-time formats.
+  
+  The GlideDateTime API is used to manipulate date and time values.
