@@ -1,0 +1,19 @@
+
+GlideAjax is a combination of tools, employing:
+  - Client Side codes (Client Script)
+  - Server Side codes (Script Include)
+
+The client JS code commands the server, "Please run this function." 
+The server JS code says, "Okay, here you go." This JS conversation between them occurs in XML.
+
+The server can follow the client's command in 2 ways:
+  - Synchronous: The server makes the client wait, so there is a 2-3 second load time, which
+                 can cause bad User Experience.
+  - Asynchronous: The client uses a callback function that triggers a client script once
+                  the server sends the result to the client. Basically, the server fetches
+                  the client a piece of info without making him stand idly by... the code 
+                  notifies server, keeps the client proccupied with other fields to fill
+                  out or click on other thingss, and then bring him back the info once the
+                  extra fields are filled out.
+
+The beauty of Ajax is you can retrieve a lot of information before having to hit "Submit."
