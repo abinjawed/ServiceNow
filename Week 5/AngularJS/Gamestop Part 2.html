@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- games becuase that is the module name -->
+    <html ng-app="games">
+    
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.js"></script>
+        <title>GameStop</title>
+    </head>
+    
+    <body>
+        <!-- -------------------------------------------------------------------------------- -->
+        <div ng-controller="createGameCtrl">
+            <form ng-submit="postGame()">
+                <!-- by creatin a ng-model it makes a new formData object formData can be any name -->
+                <input type="number" placeholder="id" ng-model="formData.id" />
+                <input type="text" placeholder="title" ng-model="formData.title" />
+                <input type="text" placeholder="imageUrl" ng-model="formData.imageUrl" />
+                <input type="text" placeholder="genre" ng-model="formData.genre" />
+                <input type="date" placeholder="dateAvailable" ng-model="formData.dateAvailable" />
+                <input type="number" placeholder="price" ng-model="formData.price" />
+                <input type="number" placeholder="quantity" ng-model="formData.quantity" />
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+        <!-- -------------------------------------------------------------------------------- -->
+        <div ng-controller="allGamesCtrl">
+            <button ng-click="allGames()">Get Games!</button>
+            <!-- if games is initialized then show table -->
+            <table ng-if="games">
+                <tr>
+                    <th>Title</th> <th>Price</th> <th>Genre</th>
+                </tr>
+                <tr ng-repeat="g in games">
+                    <td>{{g.title}}</td>
+                    <td>{{g.price}}</td>
+                    <td>{{g.genre}}</td>
+                </tr>
+            </table>
+        </div>
+        <!-- -------------------------------------------------------------------------------- -->
+    </body>
+    
+    <script type="text/javascript">
+        //--------------------------------------------------------------------------
+        
+    
+        
+        //--------------------------------------------------------------------------
+        // http://18.219.240.163:9595/swagger-ui.html
+        // GET -> http://18.219.240.163:9595/games/all
+        
+        angular.module("games", []);
+        
+        angular.module("games").controller("createGameCtrl", function($http, $scope){
+            $scope.postGame = function() {
+                $http.post("http://18.219.240.163:9595/games", $scope.formData).then(function(response){
+                    window.alert("Game added!");
+                }, function(error) {
+                    console.log("Error adding game");
+                });
+            }
+        });
+        
+        angular.module("games").controller("allGamesCtrl", function($scope, $http){
+            // use $http service to fetch all the games and (if succesful) store them in $scope
+            $scope.allGames = function() {
+                $http.get("http://18.219.240.163:9595/games/all").then(function(response){
+                    // if readystate = 4 and status code = 200 // <-- dont do
+                    $scope.games = response.data;
+                }, function(error){
+                    console.log('error');
+                });
+            };
+        });
+        
+    </script>
+</html>
