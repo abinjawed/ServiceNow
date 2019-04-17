@@ -1,0 +1,46 @@
+
+<html ng-app="games">
+	<head>
+		<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+	</head>
+	
+	<body ng-controller="allGamesCtrl">
+	<button ng-click="allGames()">Get Games!</button>
+		<table>
+			<tr>
+				<th>Title</th> <th>Price</th> <th>Genre</th>
+			</tr>
+			<tr ng-repeat="g in games">
+				<td>{{g.title}}</td>
+				<td>{{g.price}}</td>
+				<td>{{g.genre}}</td>
+				<td></td> <td></td> <td></td>
+			</tr>
+		</table>
+	</body>
+	
+	<script type="text/javascript">
+		// http://18.219.240.163:9595/swagger-ui.html
+		
+		// GET -> http://18.219.240.163:9595/games/all
+		angular.module("games", []);
+		
+		angular.module("games").controller("allGamesCtrl", function($scope, $http){
+			//this function will use the http service to fetch all the games 
+			//and (if successful) stores them in $scope
+			$scope.allGames = function(){
+				$http.get("http://18.219.240.163:9595/games/all")
+					.then(function(resp){
+					
+						$scope.games = resp.data;
+						
+				}, function(error){
+					console.log('error');
+				});
+			};
+		});
+	
+	</script>
+	
+</html>
