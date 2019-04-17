@@ -1,0 +1,9 @@
+Open Project > Web Service > Dynamic Web Service
+set up an html file
+https://cdnjs.com/libraries is within the <script></script> tags, which are within <head></head> tags
+write the input within the <body></body> tags
+include the ng-bind within <div></div> tags, which are within <body></body> tags
+Save
+
+Right-click on Hello.html file > Open With > Web Browser... this will allow you to test and copy 
+the url to the file and paste it to chrome and run open it.
