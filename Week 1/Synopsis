@@ -1,0 +1,174 @@
+JAVASCRIPT
+
+When we write Javascript into a code, we write it inbetween the <script></script> tags.
+
+We can also include an external .js file as well:
+
+<script src="file.js">...</script>
+
+An instruction in Javascript typically refers to one line of code... often called a statement.
+
+Each statement ends with a semicolon.
+
+When we open the separate .js file, we see there is no need for any <script></script> tags... there is only Javascript code.
+
+-------------------------------------------------------------------------------
+
+JAVASCRIPT DATATYPES
+
+(1) String: represents a list of characters. Can be enclosed with single ('')or double ("")quotes.
+
+(2) Number
+
+(3) Boolean
+
+(4) Object: represents a group of key/value pairs.
+
+	ex: Cat={
+		name: 'Mittens',
+		age: 2,
+	}
+(5) Array: represents a collection of data.
+	
+	ex: var arr = [1, 2, 3, 4, 5];
+
+-----------------------------------------------------------------------------
+
+JAVASCRIPT VARIABLES
+
+A variable is a temporary storage unit that stores data.
+
+(1)To define a variable, we start with:
+ - the keyword var
+ - the variable name
+ - a semicolon
+
+	ex: var variablename;
+
+... basically, what we just did was the act of declaration.
+
+When we choose names for variables:
+- follow camelCase convention
+- names must begin with a letter, undercore (_) or $
+- we can specify any number of letters, underscores, dollar signs, or numbers after the first character of the variable name has been declared
+- variable names are case sensitive
+
+(2)To assign a value to a varible, we start with:
+- an equal (=) sign
+- the value itself... it can be any datatype, such as a number or string
+
+-----------------------------------------------------------------------
+
+OPERATORS
+
+An operator is a symbol used to perform a calculation or comparison.
+
+-----------------------------------------------------------------------
+
+OPERATOR SHORTHAND
+
+addition (+=)        a += b
+subtraction (-=)     a -= b
+multiplication (*=)  a *= b
+division (/=)        a /= b
+modulus (%=)         a %= b
+
+-------------------------------------------------------------------------
+
+INCREMENT/DECREMENT OPERATORS
+
+We use the increment operator (++) to add 1 to a value
+
+We use the decrement operator (--) to subtract 1 from a value
+
+---------------------------------------------------------------------------
+
+STRING CONCATENATION
+
+You can combine two strings using the plus operator (+)
+
+	ex: 
+	    var a = "Lazy" + "alligator";
+	     
+	     a is now "Lazy alligator"
+
+---------------------------------------------------------------------------
+
+CONDITIONAL STATEMENTS
+
+
+A conditional statement is used to control the execution flow of a program.
+
+IF Statement: contains the IF keyword followed by a condition within parentheses:
+
+
+Some CONDITIONAL OPERATORS:
+
+== returns true if both sides are equal
+
+!= returns true if both sides are NOT equal
+
+>    returns true if the left side is greater than (or equal to) the right side
+(>=)
+
+<    returns true if the left side is less than (or equal to) the right side
+(<=)
+
+----------------------------------------------------------------
+
+LOOPS
+
+There are 2 types of Loops:
+
+(1) FOR LOOPS
+
+(2) WHILE LOOPS
+
+- Each of these loops is a block of code.
+- Each of these loops have keywords "break" and "continue"
+
+
+The FOR LOOP is instructed to repeat a specified number of times.
+It is comprised of 4 components:
+1) The keyword "for"
+2) The initializer
+3) The condition
+4) The increment
+
+
+The WHILE LOOP is instructed to repeat until a condition is no longer true.
+It is comprised of components:
+1) The keyword "while"
+2) The condition
+3) The statement
+
+----------------------------------------------------------------------------
+
+FUNCTION
+
+A function groups a block of statements.
+
+A function receives values and returns a value.
+
+To create a function:
+1) Use the keyword "function"
+2) The name for your function with a pair of parentheses
+3) The block of statements inside the curly braces
+
+For example:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Function</title>
+    <script>
+	function talk(){
+	    alert("Hello!");
+	}
+
+	talk();
+    </script>
+</head>
+<body>
+</body>
+</html>
