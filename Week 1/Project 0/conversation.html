@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p> 😄 كيف حالك ؟ </p>
+
+<button onclick="myFunction()">أنا بخير</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var hour = new Date().getHours();
+  var greeting;
+  if (hour < 18) {
+    greeting = "[^_^]👍";
+  }
+  document.getElementById("demo").innerHTML = greeting;
+}
+</script>
+
+<button onclick="myFunction2()">خليني بحالي</button>
+
+<p id="demo2"></p>
+
+<script>
+function myFunction2() {
+  var hour = new Date().getHours();
+  var greeting;
+  if (hour < 18) {
+    greeting = "[ʘ︵ʘ]";
+  }
+  document.getElementById("demo2").innerHTML = greeting;
+}
+</script>
+
+<button onclick="myFunction3()">إنجليزي</button>
+
+<p id="demo3"></p>
+
+<script>
+function myFunction3() {
+  var hour = new Date().getHours();
+  var greeting;
+  if (hour < 18) {
+    greeting = "🤷‍";
+  }
+  document.getElementById("demo3").innerHTML = greeting;
+}
+</script>
+
+</body>
+</html>

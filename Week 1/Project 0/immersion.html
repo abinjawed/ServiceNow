@@ -1,0 +1,57 @@
+<html>
+
+<head>
+<title>Title of the document</title>
+
+<style>
+body{height:100%;
+   width:100%;
+   background-image:url(beach.jpg);
+   background-repeat:no-repeat;
+   background-size:50%;
+   }
+</style>
+</head>
+
+<body>
+<div onmousemove="getCoords(event)">
+<img src="sign.jpg" width="680" height="626" alt="Signs"  align="right" usemap="#signsmap">
+</div>
+
+<script>
+
+function getCoords(pointobject){
+var x = pointobject.clientX;
+var y = pointobject.clientY;
+
+console.log("x: " + x + " y: " + y);
+
+}
+
+</script>
+
+<!---map out the onlick coordinates for x and y--->
+<map name="signsmap">
+  <area shape="rect" coords="300,250,82,306" alt="Sign" href="sign1.html">
+  <area shape="rect" coords="92,417,334,471" alt="Sign" href="sign2.html">
+  <area shape="rect" coords="424,178,508,90" alt="Sign" href="sign3.html">
+  <area shape="rect" coords="504,378,358,290" alt="Sign" href="sign4.html">
+  <area shape="rect" coords="604,588,358,485" alt="Sign" href="sign5.html">
+</map>
+
+<script>
+var mp3snd = "backgroundmusic.mp3";
+
+document.write('<audio autoplay="autoplay">');
+document.write('<source src="'+ mp3snd +'" type="audio/mpeg">');
+document.write('<!--[if lt IE 9]>');
+document.write('<bgsound src="'+ mp3snd +'" loop="1">');
+document.write('<![endif]-->');
+document.write('</audio>');
+
+</script>
+
+<h1 style="font-family:arial;color:white;font-size:100px;">هيا إلى المغامرات</h1>
+
+</body>
+</html>
