@@ -1,0 +1,110 @@
+Module-1:  HTML
+--------------------------- 
+● Environment Setup
+● Intro to HTML
+● Elements and attributes
+● head, body, h1-h6, p
+● pre, strong, em, 
+● html id #, a, href
+● table, ul, ol
+● img, iframe
+● HTML Forms  -   input, textarea,
+● HTML 5 Overview
+
+
+
+
+
+Module-2 : CSS
+~~~~~~~~~~~~~
+● Common Vocabulary Review
+● Intro to  CSS
+● CSS selectors #id, (.)class, element
+● html link external css
+● background-color, color, padding
+● margin, border, position, display
+● width, height
+● CSS3 Overview
+
+
+
+Module-3:   JavaScript
+~~~~~~~~~~~~~~~~~~~
+● JavaScript Overview
+● Intro to JavaScript
+● Console and Scripts
+● Internel vs. External JS
+● Datatypes (Numbers, boolean, string)    
+● Expressions and Operators        
+● Truthy vs. Falsy       (if...else)       
+● Functions        
+● Variable Scope
+● Flow Control (Loops and Conditional)  
+
+
+
+● Working with DOM
+		● DOM Selection
+		● DOM Manipulation
+			● Basic DOM Manipulation
+			● Continue DOM manipulation	
+
+● Event Handling in JavaScript
+		● Events & Listeners
+		● Bubbling, Capturing
+		● Event Object
+		● Cancelling Events	
+		
+● Arrays	
+		
+● AJAX
+	● JSON Overview
+	● AJAX Introduction
+	● AJAX Workflow
+	● AJAX with XMLHttpRequest Object
+	● Working with JSON in AJAX
+	
+● Introduction to ES6
+	● variable scopes
+	● Template literals 	
+	● arrow notation	in arrow functions
+	● Callback functions	
+	● Default parameters and spread attributes
+	
+
+array method in javascript  -    map() 
+
+
+Module-4: Bootstrap
+~~~~~~~~~~~~~~~~~~
+● Bootstrap 
+		● Intro to Bootstrap CSS / Responsive Web Design
+		● Bootstrap table, form, buttons
+		● glyphs, navbar, jumbotron
+		● Bootstrap Grid System
+---------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

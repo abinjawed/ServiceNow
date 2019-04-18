@@ -1,0 +1,271 @@
+﻿Web Technologies
+~~~~~~~~~~~~~~~
+Differences between Client-side and Server-side Scripting
+
+Client-side Environment
+
+The browser runs the scripts.
+The processing occurs on the end users' computer. 
+The source code is transferred from the web server to the users' computer over the internet.
+
+Client Side Technologies
+	->  HTML : -   structure for the web page
+	->  CSS :-      styles for the web page
+	->  JavaScript:-   dynamic operations
+
+Server-side Environment
+
+The web server runs the scripts.
+The processing occurs on the web server, which generates dynamic HTML pages to deliver them to the client browser. 
+This process provides interactive websites that interface with databases on the server.
+This is different from client-side scripting where scripts are run by the viewing web browser, usually in JavaScript. 
+
+			
+Server Side Technologies
+	- Java
+	- .net
+	- php
+	- python
+	- node js / express js   + MongoDb
+			
+			
+----------------------------------------------------------------------------------------------------------------------	
+
+
+Introduction to HTML
+~~~~~~~~~~~~~~~~~
+
+What is HTML?
+HTML is the standard markup language for creating Web pages.
+
+-> Presenation Language
+
+HTML stands for Hyper Text Markup Language.
+HTML elements are the building blocks of HTML pages.
+HTML elements are represented by tags.
+HTML tags label pieces of content such as "heading", "paragraph", "table", and so on.
+Browsers do not display the HTML tags, but use them to render the content of the page.
+
+HTML presents the content on the web pages in different format.
+	Eg:  Heading, Paragraphs, Tables, Images, Div
+	ex.like publish book 
+-> 	File Extentsion :  *.html,  *.htm
+
+
+
+
+Elements and attributes
+~~~~~~~~~~~~~~~~~~~~
+->  Tags
+		- pair tag       	Eg:			<p>  Content </p>
+		- single  tag   Eg:			<img /> ,  <input />
+		
+The <!DOCTYPE html> declaration defines the document to be HTML5.
+The <html> element is the root element of an HTML page.
+The <head> element contains meta data about the document.
+The <title> element specifies a title for the document.
+The <body> element contains the visible page content.
+The <h1> element defines a large heading.
+The <p> element defines a paragraph.
+	
+
+HTML Attributes:
+All HTML elements can have attributes
+Attributes provide additional information about an element
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+
+		<p>Hello World</p>
+		<img  src="Image1.jpg"  /> 
+		<h1 align="center"> Hello World</h1>
+		
+			2 types:		
+				-> Global Attributes:	    id, class, style, name
+				-> Tag Specific Attributes:   href, src, cellpadding
+----------------------------------------------------------------------------------------------------
+● head, body, h1-h6, p
+
+Structure of html document:
+	 1.  head 
+	 2.  body
+	 
+	 <html>
+			<head>
+			</head>
+			<body>
+				
+			</body>
+	 </html>
+
+
+<hr/>	 -  Horizontal Ruler
+------------------------------------------------------------------------------------------
+FONTS
+● strong, em, u, pre
+
+	<strong> - bold
+	<em>	-  italic 
+	<u> 	-  underline
+	
+	<pre>   -  pre defined
+-----------------------------------------------------------------------------------	
+<br>  
+
+●
+ table, ul, ol
+
+	ul  : unorder list
+	ol  :  ordered list
+	li  :    list item
+	
+	
+	<ul  type="dsic">
+		<li>Item1</li>
+		<li>Item1</li>
+		<li>Item1</li>
+	</ul>
+	
+	type = "disc / circle / square "
+	
+	<ol>
+		<li>Item1</li>
+		<li>Item1</li>
+		<li>Item1</li>
+	</ol>
+	
+	type="1  /  i  / I   /  a  /  A"
+	---------------------------------------------------------------------------------------
+	
+	tables 
+			<table>
+			<tr>  table row
+			<th> table  header
+			<td>  table   data
+			
+			
+	
+Attributes of table tags
+~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Table tag supports the following attributes:
+
+-> Border="2"
+-> Bgcolor="LightYellow"
+-> Width	= "200"		
+-> Align  = "Left/Center/Right"
+-> Cellspacing="4"	
+	 - It specifies space between the cells	
+-> Cellpadding="5"
+	-> It specifies space between the content and four walls of cell (inner margin).	
+
+Note:  Bgcolor attribute is supports by all table tags:  table, tr, th, td.
+--------------------------------------------------------------
+
+2. Attributes for TH/TD
+	-> Colspan="3"  
+	-> Rowspan="2"	
+	
+-> These attributes are used to merging multiple cells in to single cell either row wise or column wise.
+----------------------------------------------------------------------------------------		
+● Hyperlinks:	 html id #, a, href
+
+	-  <a> to prepare hyperlinks
+	-   navgiate from one page to another
+	
+	<a  href="url"> Text </a>
+	
+Eg:	
+		Relative Urls
+		<a href="home.html">Home</a>
+		<a href="login.html">Login</a>
+		
+		Absolute Urls
+		<a href="http://www.facebook.com">Facebook</a>
+		<a href="http://www.youtube.com">Youtube</a>
+		
+		Within the same page
+		<a  href="#s1">Text</a>  //id referring heading
+	
+		
+		<h3  id="s1"></h3>
+------------------------------------------------------------------------------------------------	
+		● img
+		
+		
+			<img   src="image1.jpg"  width="200" height="100" 
+						border="2"  />
+
+
+
+
+Html Forms
+~~~~~~~~~~
+->  form, input , textarea,  select, option, legend, fieldset
+
+->  get data from user and send the data to server
+
+->  type : Type attribute specifies what type of input control that you want to create.
+	
+-> It supports following options: 		
+		text, password, checkbox, radio, button, reset, submit, hidden, file, etc..
+		
+name -  required for server side 
+id  -  required for client side 
+		
+		<textarea name="t3" rows="5" cols="25"></textarea>
+
+	<form  action="Register.jsp" method="post">		
+		<input  type="text"  name="t1"  id="t1" />
+		<input type="submit"  value="Login"  />
+	</form>
+--------------------------------------------------------------------------------------
+
+● HTML 5 Overview
+
+	-> Semantic Tags
+			<div>   to group set of elements ex. line items in shopping cart
+				<img />
+				<p></p>
+				<a></a>
+			</div>
+			
+			<header></header>  company description
+			<footer></footer>
+			<nav></nav>
+			<section></section>
+			<article></article>
+			
+	-> WebForms 2.0
+	
+		Age :  <input type="number"  />
+		Email  :  <input  type="email" />
+		Start Date  :  <input  type="date" />
+		
+		Attributes:		required, min, max, placeholder, autofocus 
+		
+		
+	->Multi-media tags
+	~~~~~~~~~~~~~~~~
+		1. <video> tag
+
+		<video id="video1" controls>
+			<source  src="filename"
+							type="video/mp4" />	  
+		</video>	
+----------------------------------------------------------
+		2. <audio> tag
+		~~~~~~~~~~~~
+			<audio id="audio1"  controls>
+					<source 	src="filename"	
+								type="audio/mp3" /> 
+			</audio>
+--------------------------------------------------------------
+	
+ 
+
+
+
+
+
+
+--------------------------------------------------------------------------
+iframe

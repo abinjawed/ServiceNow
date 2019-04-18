@@ -1,0 +1,143 @@
+							CSS
+							~~~~							
+-> CSS stands for Cascading Style Sheets.
+
+-> CSS concept is used to apply styles for html elements.
+
+-> If you want to customize the default appearance of html elements, styles will be helpful.
+
+-> Default attributes does not support all requirements.
+
+Eg:  h1 tag does not support attribute for background color.
+ 
+-> By using styles we can apply required changes to any html element.
+
+Eg:  colors, size, border, position, alignment etc....
+
+-> CSS3 is the latest version that provides more number style properties.
+--------------------------------------------------------------
+
+Implementation of CSS
+~~~~~~~~~~~~~~~~~~
+-> We can implement CSS concept at three different levels:
+	
+1. Tag Level  -  style attribute
+ 
+	<h1  style="color:Blue;">  // style- attribute, color-property ,blue is value
+			Welcome
+	</h1>
+------------------------------------------------------
+2. Page Level  -  style tag
+ 
+Usage: 
+		  <style>
+				h1
+				{
+					color: Blue;			
+				}
+				
+				p
+				{
+					color: Green;			
+				}
+		   </style>
+------------------------------------------------------
+3. Project Level     -  *.css file
+~~~~~~~~~~~~
+-> Define the styles in css file
+-> import the *.css file using link tag in html document.
+
+Eg:
+	<link href="MyStyles.css" rel="stylesheet"  />
+-----------------------------------------------------------------
+ 
+ 
+
+Selectors in CSS  (Page level or app level)
+~~~~~~~~~~~~~
+-> We can define the styles in CSS in the following ways:
+	1. Tag Name based
+		p {  color : Blue;  }		
+				
+	2. Id based  (#)
+			#p1 {  color : Blue;  }
+			
+	3. Class Name based   (.)	
+			.c1   {     color : Blue;   }
+			
+	4. Others	
+			h1, h2, p  {	 ..... 		}
+			* 	{	 .....  	}			
+			 div  p  {  ....... }		  //div is parent and p is child.this is called child selector
+			#table1   tr{  ........  }  //this is called child selector
+			
+The <div> tag defines a division or a section in an HTML document.
+
+The <div> element is often used as a container for other HTML elements to style them with CSS or to perform certain tasks with JavaScript.
+-----------------------------------------------------
+
+	<p>Hello</p>
+	
+	<div>
+		<p>Hi </p>
+	</div>
+
+
+
+
+
+
+
+
+	
+Important CSS  Style Properties
+~~~~~~~~~~~~~~~~~~~~~~~~~
+1. color  :  Red;
+2. background-color  : Blue;
+3. border : 2px  solid  red;
+4. border-width :  2px;
+5. border-style : solid / double;
+6. border-color :  red;
+7. border-radius : 2px;
+
+8.  position: absolute / relative;
+9.  left: 200px;
+10. top: 300px; 
+
+11. height: 350px;
+12. width: 450px;
+13. text-align:  left / right / center / justify;
+
+14. font-family : 'Arial';
+15. font-size : 10px;
+16. font-weight: bold;
+17. font-style: italic;
+
+18. text-decoration : 
+			underline / none / overline / line-through;		
+19. padding : 5px;
+20. margin: 5px;
+21. float : left;
+22. cursor : pointer;
+23. list-style : none;
+24. opacity: 0.5;
+25. border-left-width : 20px;
+-----------------------------------------------
+
+
+The <div> tag defines a division or a section in an HTML document.
+
+The <div> element is often used as a container for other HTML elements to style them with CSS or to perform certain tasks with JavaScript.
+
+
+
+<div>
+		<p></p>
+		<img  />
+		<span></span>
+		.......
+</div>
+
+
+
+
