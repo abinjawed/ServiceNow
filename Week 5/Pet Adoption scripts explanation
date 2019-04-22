@@ -1,0 +1,63 @@
+
+MY PETS WIDGET
+
+----- Server Script:
+-We are doing a check on the widget:
+
+-As the page loads, a Glide Record will see if there are any current entries for the user. If so, then we populate data.currentPet
+
+-Data is an object already available for every widget.
+
+----- HTML Template:
+-The first thing the user will need is a button to open the pet_selection modal.
+
+-The button element uses ng-if. This is our directive which will allow us to specify how the value is expressed.
+
+-The function "lg" is mentioned, but it is not yet defined... we will define it in the client script.
+
+------ Client Script:
+-This is where we write client-side code.
+
+-This is where emphasis is placed on user interaction.
+
+-We create names for objects and functions that pertain to the widget.
+
+-Modal windows are a service that allows us to open a modal dialogue; it is offered by bootstrap. We use spModal.
+
+-We paste the sys_id of the pet_selection widget and embed it into the modal of the my_pet widget.
+
+-We define "shared" as an empty array. We set it up so that we allow the interaction between my_pets and pet_selection so that they can share information between each other.
+
+-------CSS:
+-We paste the desired css, which is pretty straightforward.
+
+
+
+PET SELECTION WIDGET
+----- Server Script:
+-We use Glide Record on the pets table. When we return a pet, it gets added to the object "pets," which has values of name, photo, bio and sys_id. All of these values have .toString() at the end,
+because the Server script might try to pass the values as other objects, as well.
+
+-Data is available, but the data object is local to each widget... meaning the data in one widget is different from the data in the other widget... hence, we need them to share between each other.
+
+-Now that we have built the object called "pets," we now need to build a template to display the "pets" object.
+
+----- HTML Template.
+-The template is designed to display the pets, and can be copied from a bootstrap website. The Service Portal is built in bootstrap, and it makes it appear deceptively simple.
+
+-The double curly brackets  {{}} is where we inject the variable into the template.
+
+-To summarize the HTML Template: if I have a current pet, I want the div class to be the selected class: is the current pet set to the pet of interest?... True or False? 
+
+-The c.widget.options.shared allows us to access the shared values between the widgets.
+
+-We may have created a button to call for a function. What is that function? We have not yet built it. Let's built it in Client Script!
+
+------ Client Script:
+-We have the function c.select.pet as the function for the button in the HTML Template.
+
+-We have an object called shared.selectPet to be stored in the shared objects and setting it to "pets."
+
+-One widget will know which pet was selected in the other widget.
+
+-When we click the "adopt" button, the function "timeout" runs. We are using angular element here.
