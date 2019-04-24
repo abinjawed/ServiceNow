@@ -1,0 +1,5 @@
+ Import Sets and Transform Maps are a great way to bring data into ServiceNow for integrations. 
+ 
+By pairing Import Sets with Scripted REST, you can keep the great usability of existing 
+Transform Maps while adding in your own powerful preprocessing, custom error messages, 
+ability to handle more complex data sets and even manipulate field names from incoming data sources.
