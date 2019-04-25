@@ -2,6 +2,8 @@ Parent Class: Schools  u_schools
   Child Class: Registration  u_registration
   Child Class: Extracurricular Activities u_extracurricular_activities
   Child Class: Weather Notifications
+    Child Class: Cancellation u_cancellation
+    Child Class: Delays u_delays
   Child Class: Get Involved u_get_involved
     Child Class: Mentor u_mentor
     Child Class: Tutor u-tutor
