@@ -1,9 +1,13 @@
 Parent Class: Schools  u_schools
+
   Child Class: Registration  u_registration
+  
   Child Class: Extracurricular Activities u_extracurricular_activities
+  
   Child Class: Weather Notifications
     Child Class: Cancellation u_cancellation
     Child Class: Delays u_delays
+  
   Child Class: Get Involved u_get_involved
     Child Class: Mentor u_mentor
     Child Class: Tutor u-tutor
@@ -11,3 +15,6 @@ Parent Class: Schools  u_schools
     Child Class: Chaperone u_chaperone
       Child Class: Field Trips u_field_trips
       Child Class: Events u_events
+      Child Class: Fundraising u_fundraising
+   
+   Child Class: Donate u_donation
