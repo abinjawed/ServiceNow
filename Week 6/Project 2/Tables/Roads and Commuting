@@ -3,20 +3,24 @@ Parent Class: Roads and Commuting
   
   Child Class: Be Prepared u_be_prepared
     Child Class: Construction Projects u_construction_projects
+      
+  Child Class: Request Records u_request_records
+  
+  Child Class: Permits u_permits
+  
+  Child class: License u_license
+  
+  Child Class: Commercial Vehicles u_commercial_vehicles
+  
+  Child Class: Express Tolls u_express_tolls
     
-  Child Class: Contact Us u_contact_us
-    Child Class: Questions Comments Concerns u_questions_comments_concerns
-      Child Class: Request Records u_request_records
-      Child Class: Permits u_permits
-      Child class: License u_license
-      Child Class: Commercial Vehicles u_commercial_vehicles
-      Child Class: Express Tolls u_express_tolls
-      Child Class: Call Us u_call_us
-      Child Class: Email Us u_email_us
-      Child Class: Live Chat u_live_chat
-      
-      
   Child Class: Transit u_transit
+  
+  Child Class: Contact Us u_contact_us
+  Child Class: Questions Comments Concerns u_questions_comments_concerns
+    Child Class: Call Us u_call_us
+    Child Class: Email Us u_email_us
+    Child Class: Live Chat u_live_chat
   
   Child Class: Follow Us u_follow_us
     Child Class: Facebook u_facebook
