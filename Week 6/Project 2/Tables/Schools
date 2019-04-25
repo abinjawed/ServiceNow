@@ -1,4 +1,10 @@
 Parent Class: Schools  u_schools
-
-Child Class: Registration  u_registration
-Child Dlass: Extracurricular Activities u_extracurricular_activities
+  Child Class: Registration  u_registration
+  Child Class: Extracurricular Activities u_extracurricular_activities
+  Child Class: Weather Notifications
+  Child Class: Get Involved u_get_involved
+    Child Class: Mentor u_mentor
+    Child Class: Tutor u-tutor
+    Child Class: Chaperone u_chaperone
+      Child Class: Field Trips u_field_trips
+      Child Class: Events u_events
