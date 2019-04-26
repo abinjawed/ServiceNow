@@ -1,0 +1,25 @@
+
+Parent Class: Recreation and Parks
+  
+  Child Class: Recreation and Parks Finder
+  
+  Child Class: Park Pavilion Rentals
+  
+  Child Class: Fairfax Activities Guide
+    Child Class: Activity Registration
+  
+  Child Class: Resources
+    Child Class: Lakes and Fishing Guide
+    Child Class: Trails
+    Child Class: Camping
+    
+  Child Class: Management
+    Child Class: Wildlife Management
+    Child Class: Vandalism Repair
+    Child Class: Trash and Debris Disposal
+  
+  Child Class: Seasonal Safety Tips
+    Child Class: Mosquito Control
+    Child Class: Food Storage
+    Child Class: Fire Regulations
+    Child Class: Wildlife
