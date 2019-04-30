@@ -1,0 +1,9 @@
+----ADMIN CONSOLE----
+Modules
+  > Input: Title: (Road Maintenance Form)
+           Application Menu: (Transportation)
+           > Visibility: Roles: (u_transportation_user)
+                         Active (✔)
+                         Override Application Menu Roles (✔)
+           > Link Type: Link Type: (List of Records)
+                        Table: Transportation [u_transportation]
