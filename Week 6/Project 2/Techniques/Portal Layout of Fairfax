@@ -1,0 +1,11 @@
+Home Page ( https://dev56440.service-now.com/fairfaxcounty?id=ffc_index )
+
+Option "Resident"
+    ...in the Admin Console, this is found under:
+        Application Navigator >
+                     Service Portals >
+                                  Menus >
+                                      Click on "Updated" row.
+                                                    > "Resident"
+                                                          > Add "Public Schools"
+                                                                    
