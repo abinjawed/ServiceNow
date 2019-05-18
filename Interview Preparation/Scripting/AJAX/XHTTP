@@ -1,0 +1,31 @@
+XHTTP (Extended Hypertext Transfer Protocol)
+
+The XHTTP lets you abstract an API across a network as services, similar to web services using protocols such as SOAP, 
+enabling remote and distributed platforms for both private and public consumption.
+
+XHTTP differs from other protocols in that all request and response metadata are sent as headers. 
+This significantly reduces the transport overhead involved with other solutions by integrating the process into the protocol itself.
+
+The extension to the base protocol defines the process of constructing a request and generating a response, as well as adding 
+additional headers and status codes, and finally, defining an XML schema to describe the services and actions available at the URI. 
+Features such as TLS, authentification, caching and streaming are also available when using XHTTP.
+
+XHTTP allows for both primitive and complex data types, sent to the server as query string parameters and defined in the 
+Arguments header of the request, and received by the client in the response body and defined in the Return header.
+
+If the request were to be processed successfully, the following XHTTP response headers and body would be returned to the client:
+
+  HTTP/1.0 200 OK
+  Date: Sat, 18 May 2019 16:16:06 GMT 
+  Return: 5
+  ['James Watts','Madrid','Spain']
+
+However, in the event that an error were to occur, an exception would be thrown as the response, for example:
+
+  HTTP/1.0 550 Exception
+  Date: Sat, 18 May 2019 16:16:06 GMT 
+  Exception: You must pass a string of text;9
+
+Allowing services to throw exceptions at the protocol level gives them the ability to be chained and combined together without 
+needing to introduce fault tolerance into the application logic. This gives the protocol control over the flow of their execution, 
+by handling exceptions as part of the communication process between requests.
