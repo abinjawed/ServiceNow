@@ -1,0 +1,36 @@
+
+The keystone of AJAX is the XMLHttpRequest object.
+
+All modern browsers support the XMLHttpRequest object.
+
+The XMLHttpRequest object can be used to exchange data with a web server behind the scenes. 
+This means that it is possible to update parts of a web page, without reloading the whole page.
+
+All modern browsers (Chrome, Firefox, IE7+, Edge, Safari, Opera) have a built-in XMLHttpRequest object.
+
+
+Some Properties Of XMLHttpRequest:
+- onreadystatechange --> an eventhandler that is called whenever the readyState attribute changes.
+- readyState --> returns an the state of the request, which can be:
+   
+   Value	  State	              Description
+     0	    UNSENT	            Client has been created. open() not called yet.
+     1	    OPENED	            open() has been called.
+     2	    HEADERS_RECEIVED	  send() has been called, and headers and status are available.
+     3	    LOADING	            Downloading; responseText holds partial data.
+     4	    DONE	              The operation is complete.
+
+- status property --> returns the numerical HTTP status code of the XMLHttpRequest's response:
+
+100 range (Informational): The request was received, continuing process
+200 range (Successful):    The request was successfully received, understood, and accepted
+300 range (Redirection):   Further action needs to be taken in order to complete the request
+400 range (Client Error):  The request contains bad syntax or cannot be fulfilled
+500 range (Server Error):  The server failed to fulfill an apparently valid request
+
+- responseText --> returns the text received from a server following a request being sent.
+- open() --> initializes a newly-created request, or re-initializes an existing one.
+- send() --> sends the request to the server. 
+If the request is asynchronous (which is the default), this method returns as soon as the 
+request is sent and the result is delivered using events. 
+If the request is synchronous, this method doesn't return until the response has arrived.
