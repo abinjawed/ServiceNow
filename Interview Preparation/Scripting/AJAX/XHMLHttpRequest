@@ -11,7 +11,7 @@ All modern browsers (Chrome, Firefox, IE7+, Edge, Safari, Opera) have a built-in
 
 Some Properties Of XMLHttpRequest:
 - onreadystatechange --> an eventhandler that is called whenever the readyState attribute changes.
-- readyState --> returns an the state of the request, which can be:
+- readyState --> returns the state in which the client is, which can be:
    
    Value	  State	              Description
      0	    UNSENT	            Client has been created. open() not called yet.
