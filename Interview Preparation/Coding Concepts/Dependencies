@@ -1,0 +1,31 @@
+--Understanding Dependencies--
+You can't read a good book on OOP without it mentioning dependencies, loose coupling etc. and with good reason. 
+Understanding dependencies is important when doing object oriented design of API's and applications. However, in my opinion 
+the subject could be investigated further than many books do. That is the purpose of this text. 
+If you are an experienced OO developer you may already know much or all of what is written here. 
+I believe though, that many developers will still be able to pick up something from this text.
+
+--What is a Dependency?--
+Whenever a class A uses another class or interface B, then A depends on B. A cannot carry out it's work without B, and A cannot be 
+reused without also reusing B. In such a situation the class A is called the "dependant" and the class or interface B is 
+called the "dependency". A dependant depends on its dependencies.
+
+Two classes that uses each other are called "coupled". The coupling between classes can be loose or tight, or somewhere in between. 
+The tightness of a coupling is not binary. It is not either "loose" or "tight". The degrees of tightness are continuous, not discrete. 
+You can also characterize dependencies as "strong" or "weak". A tight coupling leads to strong dependencies, and a loose coupling 
+leads to weak dependencies, or even no dependencies in some situations.
+
+Dependencies, or couplings, are directional. That A depends on B doesn't mean that B also depends on A.
+
+--Why are Dependencies Bad?--
+Dependencies are bad because they decrease reuse. Decreased reuse is bad for many reasons. 
+Often reuse has positive impact on development speed, code quality, code readability etc.
+
+--Dependency Types--
+A dependency isn't just a dependency. There are several types of dependencies. Each type leads to more or less flexibility in the code. 
+
+The dependency types are:
+
+Class Dependencies
+Interface Dependencies
+Method / Field Dependencies
