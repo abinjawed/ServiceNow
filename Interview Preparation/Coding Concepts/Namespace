@@ -1,0 +1,22 @@
+A namespace is a set of symbols that are used to organize objects of various kinds, so that these objects may be referred to by name. 
+A namespace ensures that all the identifiers within it must have unique names so that they can be easily identified. 
+In order to manage the namespace, there are mechanism of creating packages. Prominent examples include:
+
+-File systems, which are namespaces that assign names to files;
+-Some programming languages organize their variables and subroutines in namespaces;
+-Computer networks and distributed systems assign names to resources, such as computers, printers, websites, (remote) files, etc.
+
+Namespaces are commonly structured as hierarchies to allow reuse of names in different contexts. 
+As an analogy, consider a system of naming of people where each person has a proper name, as well as a family name shared with 
+their relatives. If the first names of family members are unique only within each family, then each person can be uniquely 
+identified by the combination of first name and family name; there is only one Jane Doe, though there may be many Janes. 
+Within the namespace of the Doe family, just "Jane" suffices to unambiguously designate this person, while within the "global" 
+namespace of all people, the full name must be used.
+
+In a similar way, hierarchical file systems organize files in directories. Each directory is a separate namespace, so that the 
+directories "letters" and "invoices" may both contain a file "to_jane".
+
+In computer programming, namespaces are typically employed for the purpose of grouping symbols and identifiers around a particular 
+functionality and to avoid name collisions between multiple identifiers that share the same name.
+
+In networking, the Domain Name System organizes websites (and other resources) into hierarchical namespaces.
