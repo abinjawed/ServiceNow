@@ -1,5 +1,10 @@
 
-AngularJS is a JavaScript framework. It can be added to an HTML page with a <script> tag:
+AngularJS is a JavaScript framework. 
+
+But what does the 'angular' in AngularJS actually mean?
+It's called 'angular' because its framework is inside HTML tags, which are written using angle brackets<>.
+
+AngularJS can be added to an HTML page with a <script> tag:
         
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 
