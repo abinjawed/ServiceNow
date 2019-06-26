@@ -19,5 +19,6 @@ AngularJS:  - extends HTML attributes with Directives
 AngularJS extends HTML with ng-directives:
  -The ng-app directive defines an AngularJS application.
  -The ng-init directive initializes application data.
+ -The ng-controller directive defines the controller.
  -The ng-model directive binds the value of HTML controls (input, select, textarea) to application data.
  -The ng-bind directive binds application data to the HTML view.
