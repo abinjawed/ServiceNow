@@ -16,7 +16,7 @@
 </html>
 
 
-//Basic AngularJS Example with directives, plus ng-init :
+//Basic AngularJS Example with ng-init and expression instead of ng-bind :
 <!DOCTYPE html>
 <html>
 
