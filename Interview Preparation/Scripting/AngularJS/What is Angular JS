@@ -11,6 +11,8 @@ AngularJS can be added to an HTML page with a <script> tag:
 
 AngularJS:  - extends HTML attributes with Directives
             - binds data to HTML with Expressions
+                - the Expressions are written inside double braces: {{ expression }}
+                - we will "output" data exactly where the expression is written
 
 
 
