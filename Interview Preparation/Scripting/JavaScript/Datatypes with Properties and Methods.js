@@ -60,22 +60,29 @@ document.getElementById("demo").innerHTML = fruits;
 <head>
 </head>
 <body>
-<p>The push() method returns the new array length.</p>
 
-<button onclick="myFunction()">Try it</button>
+<h2>JavaScript Array Methods</h2>
 
-<p id="demo1"></p>
-<p id="demo2"></p>
+
+<p>The push() method adds a new element into an array.</p>
+
+<p>Click the button to add a new element into the array.</p>
+  <button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
 
 <script>
+//describe the array
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
-document.getElementById("demo1").innerHTML = fruits;
+document.getElementById("demo").innerHTML = fruits;
 
+//add the new element into the array
 function myFunction() {
-  document.getElementById("demo2").innerHTML = fruits.push("Kiwi");
-  document.getElementById("demo1").innerHTML = fruits;
+document.getElementById("demo").innerHTML = fruits.push("Kiwi");
+document.getElementById("demo").innerHTML = fruits;
 }
 </script>
+
 </body>
 </html>
 
