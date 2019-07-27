@@ -30,18 +30,25 @@
 
 <h2>JavaScript Array Methods</h2>
 
-<h2>pop()</h2>
 
 <p>The pop() method removes the last element from an array.</p>
 
-<p id="demo1"></p>
-<p id="demo2"></p>
+<p>Click the button to remove the last element from the array.</p>
+  <button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+<p id></p>
 
 <script>
+//describe the array
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
-document.getElementById("demo1").innerHTML = fruits;
+document.getElementById("demo").innerHTML = fruits;
+
+//remove the last elment from the array
+function myFunction() {
 fruits.pop();
-document.getElementById("demo2").innerHTML = fruits;
+document.getElementById("demo").innerHTML = fruits;
+}
 </script>
 
 </body>
