@@ -44,7 +44,7 @@
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 document.getElementById("demo").innerHTML = fruits;
 
-//remove the last elment from the array
+//remove the last element from the array
 function myFunction() {
 fruits.pop();
 document.getElementById("demo").innerHTML = fruits;
