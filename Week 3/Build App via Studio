@@ -15,4 +15,7 @@
 
 (Step Ten) Go to our newly created "List of Records" Module. Add the newly created Table from Step Eight as the "Table" under "Link Type."
 
-(Step Nine) Now you may go to Forms & UI > Forms, and select the desired fields.
+(Step Eleven) Go to Application Navigator > newly created "List of Records" Module. Favorite it.
+
+(Step Twelve) Go to the newly created "List of Records" Module. Click on "New". Now you may Configure form as desired.
+** Afterwards, you may later on go to Forms & UI > Forms, and configure fields as desired.
