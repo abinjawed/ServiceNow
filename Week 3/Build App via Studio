@@ -9,4 +9,10 @@
 (Step Six) Create Application File > Module > Create > Name the Module 
 (Step Seven) Within the Module, select Link Type > Go to Link Type Tab > Select Link Type as List of Records > Update. This has RECORDS.
 
-(Step Eight) Now you may go to Forms & UI > Forms, and select the desired fields.
+(Step Eight) Go to Table > New > Name the Table as desired. Save.
+
+(Step Nine) Go to our newly created "New Record" Module. Add the newly created Table from Step Eight as the "Table" under "Link Type."
+
+(Step Ten) Go to our newly created "List of Records" Module. Add the newly created Table from Step Eight as the "Table" under "Link Type."
+
+(Step Nine) Now you may go to Forms & UI > Forms, and select the desired fields.
