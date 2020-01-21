@@ -15,8 +15,14 @@
 
 (Step Ten) Go to our newly created "List of Records" Module. Add the newly created Table from Step Eight as the "Table" under "Link Type."
 
-(Step Eleven) Go to Application Navigator > newly created "List of Records" Module. Favorite it.
+(Step Eleven) Go to Create File, choose "Form". Now we can configure its fields. 
 
-(Step Twelve) Go to the newly created "List of Records" Module. Click on "New". Now you may Configure form as desired.
+(Step Twelve) Go to Application Navigator > newly created "List of Records" Module. Favorite it.
 
-(Step Thirteen) Go to Forms & UI > Forms, and configure fields as desired.
+(Step Thirteen) In the Application Navigator, we create a “New” record, and on the form, we right-click: 
+
+                                    Configure 
+
+                                            > Form Design 
+
+...this is how we will map out the fields between the Form and its associated records. 
