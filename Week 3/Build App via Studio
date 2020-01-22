@@ -26,3 +26,6 @@
                                             > Form Design 
 
 ...this is how we will map out the fields between the Form and its associated records. 
+
+(Step Fourteen) In Studio, create "Role" under Access Control for Approver.
+....then you may create the Group for Managers, and add that Role. Then, you may add the desired (users).
