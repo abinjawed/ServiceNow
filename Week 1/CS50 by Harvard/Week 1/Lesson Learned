@@ -1,0 +1,11 @@
+Lesson 1: What is the difference between = and == ?
+
+          Answer: the = is for assigning a value to an object,
+          whereas the == is for comparing integers.
+
+
+Lesson 2: Why do we start at 0?
+
+          Answer: Zero is the smallest, non-negative number, so why waste it? Use it!
+          Start at zero. 
+          You can say you have one car or zero cars, butt you cannot have negative 1 car.
