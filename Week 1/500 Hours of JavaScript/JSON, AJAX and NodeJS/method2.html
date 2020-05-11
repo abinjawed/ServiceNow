@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+</head>
+<body>
+
+  <h1>Welcome to the ever-growing repository of patrons (God Willing).</h1>
+
+  <!--display of customer properties-->
+    <p id="customers"></p>
+
+  <script>
+
+  //array of customer objects
+  var customers = [
+    {
+      name: "Omer",
+      email: "omer@email.com"
+    },
+    {
+      name: "Musab",
+      email: "musab@email.com"
+    }
+  ];
+
+  //display customers array in the console, in this example Omer
+  console.log(customers[0].name);
+
+  //for loop of customer names
+  var output = '';
+  for(var i = 0; i < customers.length; i++){
+    output += '<li>name: '+customers[i].name+' email: '+customers[i].email+'</li>';
+  }
+  document.getElementById('customers').innerHTML = output;
+
+  </script>
+</body>
+</html>
