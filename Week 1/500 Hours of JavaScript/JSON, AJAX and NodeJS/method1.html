@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+</head>
+<body>
+
+<h1>Welcome to the ever-growing repository of patrons (God Willing).</h1>
+
+
+<!--refresh collection of customer details-->
+<button onclick="myFunction()">Refresh</button>
+
+<!--display of myCustomer properties-->
+<p id="demo"></p>
+
+<script>
+var myCustomer = {
+  name: "Awad",
+  address: {
+    street: "123 main st",
+    city: "Aurora"
+  },
+  phone: "720-555-5555",
+  email: "test@email.com",
+  request: "be cool",
+  payment: ["card", "cash"]
+}
+
+//convert the object myCustomer into a string.
+myCustomer = JSON.stringify(myCustomer);
+
+//parse the string myCustomer to allow access of properties.
+//myCustomer = JSON.parse(myCustomer);
+
+//display the properties of the object myCustomer in p element.
+function myFunction() {
+document.getElementById("demo").innerHTML = myCustomer;
+}
+</script>
+
+</body>
+</html>
