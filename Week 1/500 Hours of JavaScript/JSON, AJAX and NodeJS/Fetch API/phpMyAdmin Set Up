@@ -1,0 +1,10 @@
+  
+Step One: Create the HTML and PHP files via Atom.
+
+Step Two: Test the files on a Chrome Browser.
+
+Step Three: Download XAMPP, which will contain phpMyAdmin.
+            The Set up steps are found here: https://www.youtube.com/watch?v=S8pL5qd1b30
+            The Final Step: Choose Apache and MySQL to Start and Stop
+
+Step Four: Open a browser, type in "localhost," which will direct you to the XAMPP Apache dashboard. Select phpMyAdmin.
