@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Pick-Up/Drop-Off Form</title>
+</head>
+<body>
+ <form action="insert.php" method="POST">
+  <table>
+   <tr>
+    <td>Name :</td>
+    <td><input type="text" name="customername" required></td>
+   </tr>
+   <tr>
+    <td>Phone Number :</td>
+    <td><input type="text" name="phonenumber" required></td>
+   </tr>
+   <td>Home Address :</td>
+   <td><input type="text" name="homeaddress" required></td>
+  </tr>
+   <td>Email Address :</td>
+   <td><input type="text" name="emailaddress" required></td>
+  </tr>
+  <tr>
+ <td>Delivery :</td>
+ <td>
+  <input type="radio" name="delivery" value="y" required>Yes
+  <input type="radio" name="delivery" value="n" required>No
+ </td>
+</tr>
+<tr>
+    <td><input type="submit" value="Submit"></td>
+   </tr>
+  </table>
+ </form>
+</body>
+</html>
