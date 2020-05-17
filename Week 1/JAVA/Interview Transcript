@@ -1,0 +1,10 @@
+Java code is first compiled into a class containing code...
+
+...it is then executed by the JVM (Java Virtual Machine), and it needs JDK (Java Development Kit) 
+or JRE (Java Runtime Environment).
+
+Java has strong typing, meaning Variable data types must be declared.
+
+Programs must be saved as separate files and compiled before they can be run.
+
+Programs are compiled in the server before execution on client side.
