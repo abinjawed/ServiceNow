@@ -11,5 +11,7 @@ Programs are compiled in the server before execution on client side.
 
 "Static" is a scope keyword... basically static means that the method belongs to the class, NOT the object.
 
+An object is an instance of a class.
+
 The "main" method is static because the JVM needs to access the method without having to create another instance of the class.
 
