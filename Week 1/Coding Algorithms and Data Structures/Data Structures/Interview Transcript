@@ -63,4 +63,43 @@ USE/APPLICATION:
 how severe the impact is, in order to ensure service level agreements are honored.
 
 -----------------------------------------------------------------------------------------
-*
+*A Binary Search Tree has the following properties:
+-The root node is larger than nodes in the left subtree.
+-The root node is smaller than nodes in the right subtree.
+
+Leaf nodes do not have children.
+
+Trees allow us to interpret data in a hierarchy structure, with straightforward search
+and insertion.
+
+Traversal is a process that visits all the nodes in the tree:
+-preOrder traversal
+-inOrder traversal
+-postOrder traversal
+-levelOrder traversal
+
+----------------------------------------------------------------------------------------
+*A Queue is a collection of elements in a sequence that can be modified by adding on
+one end and deleting on another end.
+
+The operation of a queue make it a FIFO (first-in-first-out) data structure.
+
+----------------------------------------------------------------------------------------
+*A Stack is a collection of elements with two principle operations:
+-Push, which adds an element to the collection.
+-Pop, which removes the most recently added element.
+
+The operation of a stack make it a LIFO (last-in-first-out) data structure.
+
+Similar to a stack of plates, adding or removing is only possible at the top.
+
+----------------------------------------------------------------------------------------
+*A Linked List is a linear collection of elements, whose order is not determined by
+their physical placement, but by their pointers.
+
+Each node contains a data field and a reference list.
+
+----------------------------------------------------------------------------------------
+*An Array is a collection of elements.
+
+The elements can be values or variables, and are identified by an index.
