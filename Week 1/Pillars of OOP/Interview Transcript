@@ -1,0 +1,39 @@
+*Inheritance is a mechanism in which an object acquires properties and methods of a parent object.
+
+An advantage of inheritance is code reusability.
+
+A class is a group of objects with common properties.
+
+Multiple Inheritance is not supported by Java, because it's like a child of divorced parents
+who now has a stepdad and a regular dad. He calls out, "Hey, dad!" but this creates confusion.
+and ambiguity.
+ 
+--------------------------------------------------------------------------------------------------
+*Polymorphism is the ability of an object to take on many forms.
+
+Polymorphism occurs when a parent class reference is used to refer to a child class object.
+
+Method Overloading occurs when a class has multiple methods of the same name but with
+different parameters. 
+
+Different ways of Method overloading:
+-changing number of parameters.
+-changing data type of parameters, ie, int-int and int-float.
+-changing the sequence of data type of parameters, ie, int-float and float-int.
+
+--------------------------------------------------------------------------------------------
+*Encapsulation is a process of wrapping code and data together into a single unit.
+
+The purpose of encapsulation is to add privacy to the data.
+
+The Access Modifiers dictate the level of privacy of the data, such as:
+-private
+-default
+-protected
+-public
+
+--------------------------------------------------------------------------------------------
+*Abstraction is a process of hiding implementation details and showing only functionality to
+the user.
+
+Abstraction allows the user to focus on what the object does, and not how it does it.
