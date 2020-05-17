@@ -8,3 +8,8 @@ Java has strong typing, meaning Variable data types must be declared.
 Programs must be saved as separate files and compiled before they can be run.
 
 Programs are compiled in the server before execution on client side.
+
+"Static" is a scope keyword... basically static means that the method belongs to the class, NOT the object.
+
+The "main" method is static because the JVM needs to access the method without having to create another instance of the class.
+
