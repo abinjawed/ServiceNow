@@ -1,0 +1,66 @@
+------------------------------------------------------------------------------------------
+*A Matrix is an arrangement of numbers in rows in columns, surrounded by brackets.
+
+A matrix with 9 elements has 3 rows and 3 columns.
+
+USE/APPLICATION:
+A Matrix can be used to represent a graph on a computer; more specifically, the 
+adjacency matrix.
+
+------------------------------------------------------------------------------------------
+*A Graph is a non-linear data structure of nodes and edges.
+
+The nodes are connected by the edges.
+
+USE/APPLICATION:
+Graphs are used to represent networks, such as public transportation, telephone networks, 
+and connections on social media.
+
+Each node is a structure containing information such as id, name, gender, etc.
+
+------------------------------------------------------------------------------------------
+*A Hash Table stores data in an associative manner. 
+
+Its structure has 2 main components:
+-Key (like a person's name)
+-Value (a person's phone number)
+
+It is in an array format, where each data value has its own unique index value.
+
+Access to specific data becomes very fast if we know the index of the desired data.
+
+The insertion and search operations are very fast, regardless of the size of the data.
+
+Collision is if more than one person is assigned to the same index... to resolve this,
+we would assign them links... this is called chaining... for example, each person is
+represented by a unique identifier.
+
+USE/APPLICATION:
+-authentication: you can log into a system without storing your password anywhere vulnerable.
+-searching: index large files without having to read the entire content every time.
+
+-----------------------------------------------------------------------------------------
+*A Heap is a tree-based data structure, and can be of two types.
+
+-Max Heap: the root node is the largest of its children.
+-Min Heap: the root node is the smallest of its children.
+
+Heaps are complete binary trees, meaning all levels are filled... if it is partially 
+filled, it starts filling from left to right.
+
+Heaps may also be implemented in arrays, not just trees.
+
+How do we make sense of Heaps? They have equations for left child, right child and parent:
+
+-left child:  i*2
+-right child: i*2+1
+-parent:      i / 2
+
+There is no index of zero... this is to ensure the math works out in the equations.
+
+USE/APPLICATION:
+-Prioritizing tickets for system outages or disruptions at a help desk center, based on 
+how severe the impact is, in order to ensure service level agreements are honored.
+
+-----------------------------------------------------------------------------------------
+*
