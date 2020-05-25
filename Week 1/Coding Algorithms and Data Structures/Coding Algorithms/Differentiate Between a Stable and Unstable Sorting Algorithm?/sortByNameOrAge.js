@@ -7,6 +7,7 @@ var people = [
 {name: 'Nadia', age: 51},
 {name: 'Awad', age: 32},
 {name: 'Omer', age: 31},
+{name: 'Awad', age: 22},
 {name: 'Abeer', age: 29},
 ];
 
@@ -18,7 +19,6 @@ return 0;
 });
 
 console.log(people.map(p => p.name));
-
 //Sort by age
 people.sort((p1, p2) =>{
   if (p1.age < p2.age) return -1;
