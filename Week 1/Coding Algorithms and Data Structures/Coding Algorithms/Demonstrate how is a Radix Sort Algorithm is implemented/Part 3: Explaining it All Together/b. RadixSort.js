@@ -1,7 +1,6 @@
 function radixSort(arr) {
-   // Find the max number and multiply it by 10 to get a number
-   // with no. of digits of max + 1
-   const maxNum = Math.max(...arr) * 10;
+   // Find the max number and its no. of digits
+   const maxNum = Math.max(...arr);
    let divisor = 10;
    while (divisor < maxNum) {
       // Create bucket arrays for each of 0-9
